@@ -6,7 +6,6 @@ import(
     "net/http"
     "html/template"
     "martian/model"
-    "database/sql"
     "github.com/acoshift/flash"
     "github.com/gorilla/sessions"
     log "github.com/gophish/gophish/logger"
@@ -19,15 +18,6 @@ type Flash struct{
 var sessionStore sessions.Store
 
 var f = flash.New()
-
-type Ration struct {
-    Id                   int    `db:"id,omitempty"`
-    PacketType           string `db:"packet_type"`
-    Content              string `db:"content"`
-    Calories             int64  `db:"calories"`
-    ExpiryDate           sql.NullString `db:"expiry_date"`
-    Litre                float64  `db:"litre"`
-}
 
 // home page
 func IndexAction(w http.ResponseWriter, r *http.Request) {

@@ -27,7 +27,7 @@ func TestEqualFoodAndWater(t *testing.T) {
     fmt.Println("food and water both for 1 day")
     
     if err != nil {
-        t.Errorf("Fail, expected days is 1 and got %d", 2)
+        t.Errorf("Fail, expected days is 1 and got %d", len(res.Items))
     } else {
         fmt.Printf("Expected days is 1 and got %d\n", len(res.Items))
     }
