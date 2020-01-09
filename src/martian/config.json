@@ -2,9 +2,9 @@
     "GOPORT": "8000",
     "ELOGFILE": "elog.txt",
     "DOMAINNAME" : "https://localhost",
-    "db_user" : "root",
-    "db_password" : "root",
-    "db_host" : "127.0.0.1:3306",
+    "db_user" : "YOUR_USER",
+    "db_password" : "YOUR_PASSWORD",
+    "db_host" : "YOUR_DB_HOST:PORT",
     "db": "martian_ration",
     "TYPE": "mysql"
 }
