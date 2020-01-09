@@ -5,12 +5,15 @@ Your surface habitat ("Hab") on Mars contains a limited inventory of food suppli
 #### Basic feature of the application
 
 Add Ration : Record the details of the supply packet to a storage mechanism (DB, File.. etc)
+
 View Inventory : Retrieve the details of all the supply packets in the inventory
+
 Delete Ration : Ability to delete a supply packet from the inventory that has been consumed or needs update.
+
 View Schedule : Retrieve the available inventory in the storage mechanism and generate the schedule.
 
 ## Prerequisites
-    Need to have 'go' and mysql installed on your machine. 
+    Need to have 'go' and 'mysql' installed on your machine. 
 
 ## Run on your machine
 
